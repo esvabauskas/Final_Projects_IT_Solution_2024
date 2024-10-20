@@ -1,11 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Final Project</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IT paslaugos verslui | Eric Design</title>
+    <!-- Linking Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <!-- Linking Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <!-- Header / Navbar -->
+    <header>
+      <img src="./IMG/1_1_logo.png" class="Logo">
+      <nav class="navbar">
+        <a href="#" class="nav-logo">
+          <h2 class="logo-text">IT Paslaugos</h2>
+        </a>
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">Apie mus</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="nav-link">Paslaugos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials" class="nav-link">Atsiliepimai</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Atlikti darbai</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Kontaktai</a>
+          </li>
+        </ul>
+
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero section -->
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="title">IT sprendimai</h2>
+            <h3 class="subtitle">Unikalūs tinklapiai pritaikyti pagal Jūsų poreikius!</h3>
+            <p class="description">Galime pasiūlyti sprendimus reprezentaciniams, standartiniams bei profesionaliems tinklapiams.</p>
+
+            <div class="buttons">
+              <a href="#" class="button order-now">Užsakykite</a>
+              <a href="#contact" class="button contact-us">Susisiekite</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img src="./IMG/1_Hero_picture.png" alt="IT" class="hero-image" />
+          </div>
+        </div>
+      </section>
+
+      <!-- About section -->
+      <section class="about-section" id="about">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img src="./IMG/2_1_About_us_picture.jpg" alt="About" class="about-image" />
+          </div>
+          <div class="about-details">
+            <h2 class="section-title">Apie mus</h2>
+            <p class="text">Daugiau negu 10 metų esame IT sprendimų rinkos priekyje, teikdami modernius, apgalvotus ir aukščiausios kokybės IT sprendimus. Mūsų komandą sudaro tik senior lygio specialistai, nuolat tobulėjame sutelkdami dėmesį į kliento verslo ir jo iššūkių pažinimą, o tai leidžia mums kurti moderniausius sprendimus įvairiausiose pasaulio rinkose, išlaikant aukščiausius kokybės ir profesionalumo standartus. Nepriekaištingas klientų aptarnavimas ir kokybiški sprendimai yra tos priežastys, dėl kurių jau daug metų esame klientų pasirinkimas Nr. 1 jų verslo skaitmeninės transformacijos kelionėje.</p>
+            <div class="social-link-list">
+              <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services section -->
+      <section class="menu-section" id="menu">
+        <h2 class="section-title">Paslaugos</h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <img src="./IMG/1_soliution_responsive-web-design.png" alt="WEB" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Tinklapių kurimas</h3>
+                <p class="text">Mūsų tinklapių kūrimo paslauga suteikia galimybę kurti unikalius ir patrauklius svetainių dizainus, atitinkančius jūsų verslo poreikius. Naudojame modernias technologijas ir geriausias praktiką, kad užtikrintume puikią vartotojų patirtį ir svetainės našumą. Pasitikėkite mumis, ir mes padėsime jums išsiskirti skaitmeniniame pasaulyje!</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="./IMG/2_soliution_Graphic.png" alt="E.Shop" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">El. parduotuvės kūrimas</h3>
+                <p class="text">Mūsų elektroninės parduotuvės kūrimo paslauga leidžia jums lengvai ir greitai įsteigti profesionalią parduotuvę internete. Sukursime pritaikytą platformą, kuri užtikrins sklandų pirkimo procesą ir puikų vartotojų patirtį. Pasinaudokite mūsų ekspertų žiniomis, kad pritrauktumėte daugiau klientų ir padidintumėte savo pardavimus!</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="./IMG/3_soliution_graphic_design.png" alt="Graphics Design" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Grafika ir dizainas</h3>
+                <p class="text">Mūsų grafikos ir dizaino paslaugos padeda sukurti įsimintinus vizualinius sprendimus, kurie išskiria jūsų prekės ženklą. Teikiame įvairias paslaugas, įskaitant logotipų kūrimą, reklamos medžiagą ir socialinių tinklų grafiką, kad atitiktume jūsų verslo poreikius. Pasitikėkite mūsų kūrybine komanda, kad sukurtume estetiškai patrauklų ir efektyvų dizainą!</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="./IMG/4_soliution_Reklama ir SEO.png" alt="SEO" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Reklama ir SEO</h3>
+                <p class="text">Mūsų reklamos ir SEO paslaugos padeda optimizuoti jūsų svetainę, kad ji būtų matoma paieškos sistemose ir pritrauktų daugiau potencialių klientų. Teikiame strateginius sprendimus, kurie apima raktinių žodžių tyrimą, turinio optimizavimą ir skaitmeninės reklamos kampanijas. Pasitikėkite mumis, kad padidintumėte savo matomumą internete ir pasiektumėte verslo tikslus!</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="./IMG/5_soliution_android-development.png" alt="Android" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Android mobiliųjų aplikacijų kūrimas</h3>
+                <p class="text">Mūsų Android mobilių aplikacijų kūrimo paslauga suteikia galimybę sukurti funkcionalias ir vartotojui patrauklias programas, pritaikytas jūsų verslo poreikiams. Dirbame su moderniomis technologijomis, kad užtikrintume sklandų veikimą ir puikią vartotojų patirtį. Pasitikėkite mūsų ekspertų komanda, kad jūsų idėjos taptų realybe ir pasiektų plačią auditoriją!</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="./IMG/6_soliution_banking-solution-account-payment.png" alt="Bank soliution" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Interneto bankininkystės sprendimai</h3>
+                <p class="text">Mūsų interneto bankininkystės sprendimų paslauga leidžia sukurti saugias ir patogias platformas, kurios palengvina finansinių operacijų atlikimą. Teikiame pritaikytus sprendimus, užtikrinančius duomenų saugumą ir vartotojų patirtį, kad jūsų klientai būtų patenkinti. Pasitikėkite mūsų specialistais, kad sukurtumėte efektyvią ir modernią interneto bankininkystės sistemą!</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Testimonials section -->
+      <section class="testimonials-section" id="testimonials">
+        <h2 class="section-title">Klientų atsiliepimai</h2>
+        <div class="section-content">
+          <div class="slider-container swiper">
+            <div class="slider-wrapper">
+              <ul class="testimonials-list swiper-wrapper">
+                <li class="testimonial swiper-slide">
+                  <img src="./IMG/7_Testimonials.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Tomas Tomaitis</h3>
+                  <i class="feedback">"Profesionalai savo srities. Viskas greitai ir kokibiškai!"</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="./IMG/9_Testimonials.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Jonas Jonaitis</h3>
+                  <i class="feedback">"Kainos ir kokybės santikis nuostabus. Esame labai patenkinti rezultatu."</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="./IMG/8_Testimonials.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Simas Simaitis</h3>
+                  <i class="feedback">"Rekomenduojame šią įmonę tiems, kurie vertina puiku aptarnavimą ir profesionalumą."</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="./IMG/10_Testimonials.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Toma Paukinaitė</h3>
+                  <i class="feedback">"Atlikti darbai viršijo mūsų lūkesčius, nuostabi komapnija."</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="./IMG/11_Testimonials.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Laima Laimaite</h3>
+                  <i class="feedback">"Nuolat kreipiames į IT Pasalaugas bendrovę, nes jie profesionalai savo srities."</i>
+                </li>
+              </ul>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects section -->
+      <section class="services-section" id="services">
+        <h2 class="section-title">Atlikti darbai</h2>
+        <div class="section-content">
+          <ul class="services-list">
+            <li class="services-item">
+              <img src="./IMG/12_Projects.jpg" alt="services Image" class="services-image" />
+            </li>
+            <li class="services-item">
+              <img src="./IMG/13_Projects.jpg" alt="services Image" class="services-image" />
+            </li>
+            <li class="services-item">
+              <img src="./IMG/14_Projects.jpg" alt="services Image" class="services-image" />
+            </li>
+            <li class="services-item">
+              <img src="./IMG/15_Projects.jpg" alt="services Image" class="services-image" />
+            </li>
+            <li class="services-item">
+              <img src="./IMG/16_Projects.jpg" alt="services Image" class="services-image" />
+            </li>
+            <li class="services-item">
+              <img src="./IMG/17_Projects.png" alt="services Image" class="services-image" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Contact section -->
+      <section class="contact-section" id="contact">
+        <h2 class="section-title">Kontaktai</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <p>Kalvarijų g. 151, Vilnius</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-envelope"></i>
+              <p>info@itpaslaugos.com</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <p>+370 666 88888</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Pirmadienis - Penktadienis: 8:00 - 18:00</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Šeštadienį: 9:00 - 15:00</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Sekmadienį: Nedirbame</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-globe"></i>
+              <p>www.itpaslaugos.lt</p>
+            </li>
+          </ul>
+
+          <form action="#" class="contact-form">
+            <input type="text" placeholder="Your name" class="form-input" required />
+            <input type="email" placeholder="Your email" class="form-input" required />
+            <textarea placeholder="Your message" class="form-input" required></textarea>
+            <button type="submit" class="button submit-button">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer section -->
+      <footer class="footer-section">
+        <div class="section-content">
+          <p class="copyright-text">© 2024 IT paslaugos</p>
+
+          <div class="social-link-list">
+            <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+
+          <p class="policy-text">
+            <a href="#" class="policy-link">Visos teisės saugomos</a>
+            <span class="separator">•</span>
+            <a href="#" class="policy-link">Gražinimo politika</a>
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <!-- Linking Swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Linking custom script -->
+    <script src="script1.js"></script>
+  </body>
 </html>
